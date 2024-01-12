@@ -1,0 +1,353 @@
+body{
+    height: 3000px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.twitter-icon{
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+}
+/* sidebar items */
+.sidebar-container{
+    width: 180px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0; 
+    padding-top:10px; 
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.sidebar-link{
+   display: flex;
+   padding: 10px; 
+   font-weight: bold;
+}
+
+.home-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.explore-icon{
+    height: 20px;
+    margin-right:20px;
+}
+.notification-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.message-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.save-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.list-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.profile-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.more-option-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.tweet-button{
+    padding: 10px 60px 10px 60px;
+    background-color:white;
+    color: #00b6f7;
+    border-radius: 20px;
+    border: 2px solid #00b6f7;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: padding 0.5s;
+}
+.tweet-button:hover{
+    background-color: #00b6f7;
+    color: white;
+    padding: 15px 65px 15px 65px;
+}
+/* sidebar items */
+
+/* main-container  */
+
+
+/* first-container  */
+.back-arrow{
+    height: 20px;
+}
+
+.first-container{
+    display: flex;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.username{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.tweet-count{
+    color: #c8c9c9;
+    font-size: 10px;
+    margin-left: 230px;
+}
+
+/* first-container  */
+
+/* second-container */
+.main-container{
+    width: 1000px;
+}
+.cat-img{
+height: 300px;
+width: 800px;
+object-fit: cover;
+margin-left: 195px;
+margin-top: 10px;
+border-radius: 10px;
+}
+
+.cat-proflie-picturre{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    object-fit: cover;  
+}
+.cat1{
+    position: relative;
+}
+.cat2{
+    position: absolute;
+    top: 260px;
+    left: 220px;  
+}
+.edit-button{
+    padding: 10px 50px 10px 50px;
+    background-color:white;
+    color: #00b6f7;
+    border-radius: 20px;
+    border: 2px solid #00b6f7;
+    font-size: 15px;
+    margin-left:800px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.edit-button:hover{
+    background-color: #00b6f7;
+    color: white;
+}
+
+.text-container{
+    margin-left: 220px;
+    margin-top: 25px;
+    z-index: 100;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:2px;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #c8c9c9;
+    margin-bottom:10px;
+}
+.text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+.details{
+    display: flex;
+    margin-left: 215px;
+    margin-top: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.text4{
+    color: #c8c9c9;
+    padding-left: 5px;
+}
+.text5{
+    color: #00b6f7;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.text6{
+    color: #c8c9c9;
+    padding-left: 5px;
+}
+
+.location{
+    height: 16px;
+}
+.chain{
+    height: 16px;
+    margin-left: 6px;
+}
+.calendar{
+    height: 16px;
+    margin-left: 6px;
+}
+
+.follower{
+    display: flex;
+    margin-left: 210px;
+    padding-top: 20px;
+}
+.text7{
+    color: #c8c9c9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.text8{
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-top: 30px;
+    cursor: pointer;  
+}
+a{
+    text-decoration: none;
+    color: #a2a2a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: #00b6f7;
+    text-decoration: underline;
+}
+/* second-container */
+.pin-container{
+    display: flex;
+    margin-left:255px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #a2a2a2;
+
+}
+.pin-icon{
+    height: 10px;
+    margin-right: 10px;
+}
+
+.cat-dog-img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.cat-dog-container{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.cat-dog-text{
+    padding-left: 10px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name1{
+    font-weight: bold;
+}
+
+.name2{
+color: #c8c9c9;
+margin-left: 5px;
+font-size: 10px;
+}
+
+.cat-dog2{
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.all-icons{
+    display: flex;
+    margin-left: 280px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    cursor: pointer;
+}
+.all-icons img{
+    height: 20px;
+}
+.all-icons div{
+    display: flex;
+    padding-right: 50px;
+    margin-left: 8px;
+}
+
+.cat-dog-img2{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.cat-dog-container2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.cat-dog-text2{
+    padding-left: 10px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name3{
+    font-weight: bold;
+}
+
+.name4{
+color: #c8c9c9;
+margin-left: 5px;
+font-size: 10px;
+}
+
+
+.all-icons2{
+    display: flex;
+    margin-left: 280px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    cursor: pointer;
+}
+.all-icons2 img{
+    height: 20px;
+}
+.all-icons2 div{
+    display: flex;
+    padding-right: 50px;
+    margin-left: 8px;
+}
+/* main-container  */
+
+/* right-sidebar */
+
+
+/* right-sidebar */
